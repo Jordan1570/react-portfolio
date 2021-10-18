@@ -1,5 +1,13 @@
 import React from 'react'
-import passwordGenerator from '../../../../assets'
+
+import activityPlanner from '../../images/activity-planner.png';
+import ecommerceBackend from '../../images/e-commerce-backend.png';
+import noteTaker from '../../images/note-taker.png';
+import onTrack from '../../images/on-track.png';
+import randomPasswordGenerator from '../../images/random-password-generator.png';
+import readMeGenerator from '../../images/read-me-generator.png';
+import teamProfileGenerator from '../../images/team-profile-generator.png';
+import workdayScheduler from '../../images/work-day-scheduler.png';
 
 const styles = {
     myWork: {
@@ -16,7 +24,7 @@ export default function project() {
                 <div style={styles.myWork}>
                     <div className="card" style="width: 18rem;">
                         <a href="https://jordan1570.github.io/random-password-generator/" className="card-link">
-                            <img src="random-password-generator.png" className="card-img-top" alt="work day scheduler image with color coded times">
+                            <img src={randomPasswordGenerator} className="card-img-top" alt="homepage of password generator"/>
                         </a>
                         <div className="card-body">
                             <h5 className="card-title">Password Generator</h5>
@@ -29,7 +37,7 @@ export default function project() {
                 <div style={styles.myWork}>
                     <div className="card" style="width: 18rem;">
                         <a href="https://jordan1570.github.io/work-day-scheduler/" className="card-link">
-                            <img src="work-day-scheduler.png" className="card-img-top" alt="work day scheduler image with color coded times">
+                            <img src={workdayScheduler} className="card-img-top" alt="work day scheduler image with color coded times"/>
                         </a>
                         <div className="card-body">
                             <h5 className="card-title">Work Day Scheduler</h5>
@@ -44,7 +52,7 @@ export default function project() {
                 <div style={styles.myWork}>
                     <div className="card" style="width: 18rem;">
                         <a href="https://charlocc.github.io/activityplanner/" className="card-link">
-                            <img src="activity-planner.png" className="card-img-top" alt="image of santa monica pier">
+                            <img src={activityPlanner} className="card-img-top" alt="image of santa monica pier"/>
                         </a>
                         <div className="card-body">
                             <h5 className="card-title">Activity Planner</h5>
@@ -57,7 +65,7 @@ export default function project() {
                 <div style={styles.myWork}>
                     <div className="card" style="width: 18rem;">
                         <a href="https://www.youtube.com/watch?v=OsJl9nbYozE" className="card-link">
-                            <img src="read-me-generator.png" className="card-img-top" alt="image of readMe console app generating data">
+                            <img src={readMeGenerator} className="card-img-top" alt="image of readMe console app generating data"/>
                         </a>
                         <div className="card-body">
                             <h5 className="card-title">ReadMe Generator</h5>
@@ -72,7 +80,7 @@ export default function project() {
                 <div style={styles.myWork}>
                     <div className="card" style="width: 18rem;">
                         <a href="https://www.youtube.com/watch?v=rPcR5P3LCMQ" className="card-link">
-                            <img src="team-profile-generator.png" className="card-img-top" alt="screenshot of a generated team">
+                            <img src={teamProfileGenerator} className="card-img-top" alt="screenshot of a generated team"/>
                         </a>
                         <div className="card-body">
                             <h5 className="card-title">Team Profile Generator</h5>
@@ -85,7 +93,7 @@ export default function project() {
                 <div style={styles.myWork}>
                     <div className="card" style="width: 18rem;">
                         <a href="https://fathomless-oasis-75534.herokuapp.com/" class="card-link">
-                            <img src="note-taker.png" class="card-img-top" alt="screenshot of notetaker homepage">
+                            <img src={noteTaker} class="card-img-top" alt="screenshot of notetaker homepage"/>
                         </a>
                         <div className="card-body">
                             <h5 className="card-title">Note Taker</h5>
@@ -100,7 +108,7 @@ export default function project() {
                 <div style={styles.myWork}>
                     <div className="card" style="width: 18rem;">
                         <a href="https://www.youtube.com/watch?v=FqV3fIiwo8M" className="card-link">
-                            <img src="e-commerce-backend.png" className="card-img-top" alt="screenshot of tested routes in insomnia">
+                            <img src={ecommerceBackend} className="card-img-top" alt="screenshot of tested routes in insomnia"/>
                         </a>
                         <div className="card-body">
                             <h5 className="card-title">E-Commerce Back End</h5>
@@ -113,7 +121,7 @@ export default function project() {
                 <div style={styles.myWork}>
                     <div className="card" style="width: 18rem;">
                         <a href="https://whispering-island-93535.herokuapp.com/" className="card-link">
-                            <img src="on-track.png" class="card-img-top" alt="screenshot of tested routes in insomnia">
+                            <img src={onTrack} class="card-img-top" alt="screenshot of onTrack homepage"/>
                         </a>
                         <div className="card-body">
                             <h5 className="card-title">onTrack</h5>
