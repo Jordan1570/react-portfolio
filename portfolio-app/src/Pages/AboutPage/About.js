@@ -3,6 +3,7 @@ import React from 'react'
 export default function About() {
     return (
         <div>
+            <h1>About Me</h1>
             <p> What's up, my name is Jordan Scott. I was born and raised in Linden, NJ. I aspire to be one of the
                 premier
                 software

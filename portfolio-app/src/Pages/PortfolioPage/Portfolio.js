@@ -17,11 +17,11 @@ const styles = {
   };
   
 // need help with images
-export default function project() {
+export default function Portfolio() {
     return (
         <div>
             <div className="row col-sm-12">
-                <div style={styles.myWork}>
+                <div style={styles}>
                     <div className="card" style="width: 18rem;">
                         <a href="https://jordan1570.github.io/random-password-generator/" className="card-link">
                             <img src={randomPasswordGenerator} className="card-img-top" alt="homepage of password generator"/>

@@ -1,18 +1,19 @@
 import React, { useState } from 'react'
 import { Navbar, Container, Nav } from 'react-bootstrap'
+import {Link} from "react-router-dom";
 import About from '../AboutPage/About';
 import Contact from '../ContactPage/Contact';
-import Project from '../ProjectsPage/Project';
+import Project from '../PortfolioPage/Portfolio';
 import Resume from '../ResumePage/Resume';
 
 
 export default function NavbarOne() {
 
-    const [page, setPage] = useState()
+    // const [page, setPage] = useState()
 
-    const handlePage = (pg) => {
-        setPage(pg)
-    }
+    // const handlePage = (pg) => {
+    //     setPage(pg)
+    // }
 
     return (
         <div>
@@ -20,21 +21,23 @@ export default function NavbarOne() {
                 <Container>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="me-auto">
-                            <ul><a onClick={() => handlePage('About')}>About</a></ul>
-                            <ul><a onClick={() => handlePage('Project')}>Portfolio</a></ul>
-                            <ul><a onClick={() => handlePage('Contact')}>Contact</a></ul>
-                            <ul><a onClick={() => handlePage('Resume')}>Resume</a></ul>
+                        <Nav className="Nav">
+                            <li>
+                                <Link to="/">About</Link>
+                            </li>
+                            <li>
+                                <Link to="/portfolio">Portfolio</Link>
+                            </li>
+                            <li>
+                                <Link to="/resume">Resume</Link>
+                            </li>
+                            <li>
+                                <Link to="/contact-me">Contact</Link>
+                            </li>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-
-            {page === "About" && <About />}
-            {page === "Project" && <Project />}
-            {page === "Contact" && <Contact />}
-            {page === "Resume" && <Resume />}
-
         </div>
     )
 }
