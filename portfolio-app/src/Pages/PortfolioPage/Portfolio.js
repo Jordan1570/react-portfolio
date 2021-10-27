@@ -21,8 +21,8 @@ export default function Portfolio() {
     return (
         <div>
             <div className="row col-sm-12">
-                <div style={styles}>
-                    <div className="card" style="width: 18rem;">
+                <div style={styles.myWork}>
+                    <div className="card" style={{width: 18}}>
                         <a href="https://jordan1570.github.io/random-password-generator/" className="card-link">
                             <img src={randomPasswordGenerator} className="card-img-top" alt="homepage of password generator"/>
                         </a>
@@ -35,7 +35,7 @@ export default function Portfolio() {
                 </div>
 
                 <div style={styles.myWork}>
-                    <div className="card" style="width: 18rem;">
+                    <div className="card" style={{width: 18}}>
                         <a href="https://jordan1570.github.io/work-day-scheduler/" className="card-link">
                             <img src={workdayScheduler} className="card-img-top" alt="work day scheduler image with color coded times"/>
                         </a>
@@ -50,7 +50,7 @@ export default function Portfolio() {
 
             <div className="row col-sm-12">
                 <div style={styles.myWork}>
-                    <div className="card" style="width: 18rem;">
+                    <div className="card" style={{width: 18}}>
                         <a href="https://charlocc.github.io/activityplanner/" className="card-link">
                             <img src={activityPlanner} className="card-img-top" alt="image of santa monica pier"/>
                         </a>
@@ -63,7 +63,7 @@ export default function Portfolio() {
                 </div>
 
                 <div style={styles.myWork}>
-                    <div className="card" style="width: 18rem;">
+                    <div className="card" style={{width: 18}}>
                         <a href="https://www.youtube.com/watch?v=OsJl9nbYozE" className="card-link">
                             <img src={readMeGenerator} className="card-img-top" alt="image of readMe console app generating data"/>
                         </a>
@@ -78,7 +78,7 @@ export default function Portfolio() {
 
             <div className="row col-sm-12">
                 <div style={styles.myWork}>
-                    <div className="card" style="width: 18rem;">
+                    <div className="card" style={{width: 18}}>
                         <a href="https://www.youtube.com/watch?v=rPcR5P3LCMQ" className="card-link">
                             <img src={teamProfileGenerator} className="card-img-top" alt="screenshot of a generated team"/>
                         </a>
@@ -91,7 +91,7 @@ export default function Portfolio() {
                 </div>
 
                 <div style={styles.myWork}>
-                    <div className="card" style="width: 18rem;">
+                    <div className="card" style={{width: 18}}>
                         <a href="https://fathomless-oasis-75534.herokuapp.com/" class="card-link">
                             <img src={noteTaker} class="card-img-top" alt="screenshot of notetaker homepage"/>
                         </a>
@@ -106,7 +106,7 @@ export default function Portfolio() {
 
             <div class="row col-sm-12">
                 <div style={styles.myWork}>
-                    <div className="card" style="width: 18rem;">
+                    <div className="card" style={{width: 18}}>
                         <a href="https://www.youtube.com/watch?v=FqV3fIiwo8M" className="card-link">
                             <img src={ecommerceBackend} className="card-img-top" alt="screenshot of tested routes in insomnia"/>
                         </a>
@@ -119,7 +119,7 @@ export default function Portfolio() {
                 </div>
 
                 <div style={styles.myWork}>
-                    <div className="card" style="width: 18rem;">
+                    <div className="card" style={{width: 18}}>
                         <a href="https://whispering-island-93535.herokuapp.com/" className="card-link">
                             <img src={onTrack} class="card-img-top" alt="screenshot of onTrack homepage"/>
                         </a>
