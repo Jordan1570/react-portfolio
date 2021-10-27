@@ -6,19 +6,19 @@ export default function Contact() {
         <div>
             <h1>Contact</h1>
             <form>
-                <label>
+                <label style={{ display: "block" }}>
                     Name:
-                    <textarea></textarea>
+                    <textarea style={{ display: "block" }}></textarea>
                 </label>
-                <label>
+                <label style={{ display: "block" }}>
                     Email:
-                    <textarea></textarea>
+                    <textarea style={{ display: "block" }}></textarea>
                 </label>
-                <label>
+                <label style={{ display: "block" }}>
                     Message:
-                    <textarea></textarea>
+                    <textarea style={{ display: "block" }}></textarea>
                 </label>
-                <Button variant="dark">Submit</Button>
+                <Button variant="dark" style={{ display: "block", textAlign: "center" }}>Submit</Button>
             </form>
         </div>
     )
