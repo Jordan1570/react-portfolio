@@ -20,6 +20,7 @@ const styles = {
 export default function Portfolio() {
     return (
         <div>
+            <h1>Portfolio</h1>
             <div className="row col-sm-12">
                 <div style={styles.myWork}>
                     <div className="card" style={{width: 18}}>

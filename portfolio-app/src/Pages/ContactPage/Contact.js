@@ -1,8 +1,6 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 
-
-
 export default function Contact() {
     return (
         <div>
@@ -10,15 +8,15 @@ export default function Contact() {
             <form>
                 <label>
                     Name:
-                    <input type="text" name="name" />
+                    <textarea></textarea>
                 </label>
                 <label>
                     Email:
-                    <input type="text" name="name" />
+                    <textarea></textarea>
                 </label>
                 <label>
                     Message:
-                    <input type="text" name="name" />
+                    <textarea></textarea>
                 </label>
                 <Button variant="dark">Submit</Button>
             </form>
