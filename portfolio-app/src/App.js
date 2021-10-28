@@ -21,7 +21,7 @@ function App() {
       <Router>
         <NavbarOne />
         <Switch>
-          <Route path="/about">
+          <Route exact path="/">
             <About />
           </Route>
           <Route path="/portfolio">

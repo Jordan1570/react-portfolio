@@ -17,7 +17,7 @@ export default function NavbarOne() {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="Nav">
                             <li>
-                                <Link to="/about">About</Link>
+                                <Link to="/">About</Link>
                             </li>
                             <li>
                                 <Link to="/portfolio">Portfolio</Link>
