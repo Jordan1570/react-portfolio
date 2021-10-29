@@ -11,6 +11,7 @@ export default function NavbarOne() {
 
     return (
         <div>
+            {/* Put Nav Inside Header Component */}
             <Navbar className="navbar navbar-expand-lg navbar-light bg-light">
                 <Container>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
