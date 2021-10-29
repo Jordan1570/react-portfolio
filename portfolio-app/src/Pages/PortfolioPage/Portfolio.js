@@ -62,15 +62,17 @@ const projects = [
 
 function PortfolioCard(props) {
 
-    const { picture, title, description, link} = props.project
-    return(
-        <div classname="col-sm-4">
-            <div className="card">
-                <div style={{ display: "block" }}>
-                    <h1>{title}</h1>
-                    <h3>{description}</h3>
-                    <a href={link}>Go To Live Demo</a>
-                    
+    const { picture, title, description, link } = props.project
+    return (
+        <div style={{ textAlign: "center" }}>
+            <div classname="col-sm-4">
+                <div className="card" style={{ width: "18rem" }}>
+                    <div style={{ display: "block" }}>
+                        <h5>{title}</h5>
+                        <img src={picture} className="card-img-top" alt="work day scheduler image with color coded times" />
+                        <p>{description}</p>
+                        <a href={link}>Go To Live Demo</a>
+                    </div>
                 </div>
             </div>
         </div>
