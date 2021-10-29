@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { Row, Col, Container } from 'react-bootstrap'
+
 import activityPlanner from '../../images/activity-planner.png';
 import ecommerceBackend from '../../images/e-commerce-backend.png';
 import noteTaker from '../../images/note-taker.png';
@@ -24,7 +26,7 @@ const projects = [
     },
     {
         picture: activityPlanner,
-        title: "Acitvity Planner",
+        title: "Activity Planner",
         description: "Plan Your Day In The U.S.",
         link: "https://charlocc.github.io/activityplanner/"
     },
@@ -57,26 +59,29 @@ const projects = [
         title: "onTrack",
         description: "Keep Track Of A Building's Construction Process",
         link: "https://whispering-island-93535.herokuapp.com/"
-    }
+    },
+    // {
+    //     picture: onTrack,
+    //     title: "onTrack",
+    //     description: "Keep Track Of A Building's Construction Process",
+    //     link: "https://whispering-island-93535.herokuapp.com/"
+    // }
 ];
 
 function PortfolioCard(props) {
 
     const { picture, title, description, link } = props.project
     return (
-        <div className="row" style={{ textAlign: "center" }}>
-            <div classname="col-sm-4">
-                <div className="card" style={{ width: "20rem" }}>
-                    <div>
-                        <h5>{title}</h5>
-                        <img src={picture} className="card-img-top" alt="work day scheduler image with color coded times" />
-                        <p>{description}</p>
-                        <a href={link}>Go To Live Demo</a>
-                    </div>
+        <Col>
+            <div className="card" style={{ width: "20rem", marginBottom: "15px", textAlign: "center", height: "21rem" }}>
+                <div>
+                    <h5>{title}</h5>
+                    <img src={picture} className="card-img-top" alt="work day scheduler image with color coded times" />
+                    <p>{description}</p>
+                    <a href={link}>Go To Live Demo</a>
                 </div>
             </div>
-        </div>
-
+        </Col>
     )
 }
 
@@ -91,12 +96,12 @@ function PortfolioCard(props) {
 export default function Portfolio() {
     return (
         <div>
-            <h1>Portfolio</h1>
-            <div className="project-container">
-                <div className="row">
+            <h1 style={{ textAlign: "center" }}>Portfolio</h1>
+            <Container className="project-container">
+                <Row>
                     {projects.map(project => <PortfolioCard project={project} />)}
-                </div>
-            </div>
+                </Row>
+            </Container>
         </div>
     )
 }

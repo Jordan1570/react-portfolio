@@ -5,7 +5,7 @@ export default function Resume() {
         <div style={{ textAlign: "center" }}>
             <h1>Resume</h1>
             <a href="/resources/Resume.pdf" download>Click To Download Resume</a>
-            <h3>Front End Proficiencies</h3>
+            <h3 style={{ marginTop: "30px" }}>Front End Proficiencies</h3>
             <ul style={{ listStyle: "none" }}>
                 <li>HTML</li>
                 <li>CSS</li>
