@@ -16,22 +16,23 @@ export default function NavbarOne() {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="Nav">
-                            <li className="nav-link">
-                                <Link to="/">About</Link>
+                            <li className="nav-item active">
+                                <Link to="/" className="nav-link">About</Link>
                             </li>
-                            <li className="nav-link">
-                                <Link to="/portfolio">Portfolio</Link>
+                            <li className="nav-item active">
+                                <Link to="/portfolio" className="nav-link">Portfolio</Link>
                             </li>
-                            <li className="nav-link">
-                                <Link to="/resume">Resume</Link>
+                            <li className="nav-item active">
+                                <Link to="/resume" className="nav-link">Resume</Link>
                             </li>
-                            <li className="nav-link">
-                                <Link to="/contact-me">Contact</Link>
+                            <li className="nav-item active">
+                                <Link to="/contact-me" className="nav-link">Contact</Link>
                             </li>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
+            {/* style={{ position: "fixed", top: 0, right: 0 }} */}
         </div>
     )
 }
