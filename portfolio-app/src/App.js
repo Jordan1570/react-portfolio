@@ -34,6 +34,9 @@ function App() {
             <Contact />
           </Route>
         </Switch>
+        <footer>
+          
+        </footer>
       </Router>
     </div>
   );

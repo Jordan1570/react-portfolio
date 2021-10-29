@@ -11,21 +11,21 @@ export default function NavbarOne() {
 
     return (
         <div>
-            <Navbar bg="light" expand="lg">
+            <Navbar className="navbar navbar-expand-lg navbar-light bg-light">
                 <Container>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="Nav">
-                            <li>
+                            <li className="nav-link">
                                 <Link to="/">About</Link>
                             </li>
-                            <li>
+                            <li className="nav-link">
                                 <Link to="/portfolio">Portfolio</Link>
                             </li>
-                            <li>
+                            <li className="nav-link">
                                 <Link to="/resume">Resume</Link>
                             </li>
-                            <li>
+                            <li className="nav-link">
                                 <Link to="/contact-me">Contact</Link>
                             </li>
                         </Nav>
