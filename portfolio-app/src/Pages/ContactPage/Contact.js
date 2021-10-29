@@ -13,6 +13,7 @@ export default function Contact() {
                 <label style={{ display: "block" }}>
                     Email:
                     <textarea style={{ display: "block" }}></textarea>
+                    {/* need mailto */}
                 </label>
                 <label style={{ display: "block" }}>
                     Message:
