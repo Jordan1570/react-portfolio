@@ -6,12 +6,13 @@ import {
   Route,
 } from "react-router-dom";
 
-import NavbarOne from './Pages/Navbar/Navbar';
+// import NavbarOne from './Pages/Navbar/Navbar';
 import About from './Pages/AboutPage/About';
 import Resume from './Pages/ResumePage/Resume';
 import Portfolio from './Pages/PortfolioPage/Portfolio'
 import Contact from './Pages/ContactPage/Contact';
 import Footer from './Pages/Footer/Footer';
+import Header from './Pages/Header/Header';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -23,7 +24,7 @@ function App() {
   return (
     <div>
       <Router>
-        <NavbarOne />
+        <Header />
         <Switch>
           <Route exact path="/">
             <About />

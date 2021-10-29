@@ -64,10 +64,10 @@ function PortfolioCard(props) {
 
     const { picture, title, description, link } = props.project
     return (
-        <div style={{ textAlign: "center" }}>
+        <div className="row" style={{ textAlign: "center" }}>
             <div classname="col-sm-4">
-                <div className="card" style={{ width: "18rem" }}>
-                    <div style={{ display: "block" }}>
+                <div className="card" style={{ width: "20rem" }}>
+                    <div>
                         <h5>{title}</h5>
                         <img src={picture} className="card-img-top" alt="work day scheduler image with color coded times" />
                         <p>{description}</p>
