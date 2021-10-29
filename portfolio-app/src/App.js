@@ -11,11 +11,11 @@ import About from './Pages/AboutPage/About';
 import Resume from './Pages/ResumePage/Resume';
 import Portfolio from './Pages/PortfolioPage/Portfolio'
 import Contact from './Pages/ContactPage/Contact';
+import Footer from './Pages/Footer/Footer';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa";
+
 
 
 
@@ -38,10 +38,7 @@ function App() {
             <Contact />
           </Route>
         </Switch>
-        <footer style={{ textAlign: "center", marginBottom: "15" }}>
-          <a href="https://github.com/Jordan1570"><FaGithub /></a>
-          <a href="https://www.linkedin.com/in/jordan-scott-109107218/"><FaLinkedinIn /></a>
-        </footer>
+        <Footer />
       </Router>
     </div>
   );
