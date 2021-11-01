@@ -10,6 +10,7 @@ import randomPasswordGenerator from '../../images/random-password-generator.png'
 import readMeGenerator from '../../images/read-me-generator.png';
 import teamProfileGenerator from '../../images/team-profile-generator.png';
 import workdayScheduler from '../../images/work-day-scheduler.png';
+import fitnessTracker from '../../images/fitness-tracker.png';
 
 const projects = [
     {
@@ -60,12 +61,12 @@ const projects = [
         description: "Keep Track Of A Building's Construction Process",
         link: "https://whispering-island-93535.herokuapp.com/"
     },
-    // {
-    //     picture: onTrack,
-    //     title: "onTrack",
-    //     description: "Keep Track Of A Building's Construction Process",
-    //     link: "https://whispering-island-93535.herokuapp.com/"
-    // }
+    {
+        picture: fitnessTracker,
+        title: "fitnessTracker",
+        description: "Keep Track Of All Of Your Workouts",
+        link: "https://secure-river-34566.herokuapp.com/?id=6168a876954aee45c42bca06"
+    }
 ];
 
 function PortfolioCard(props) {
@@ -85,14 +86,7 @@ function PortfolioCard(props) {
     )
 }
 
-// const styles = {
-//     myWork: {
-//         marginTop: 55,
-//         textAlign: 'center',
-//     },
-// };
 
-// need help with images
 export default function Portfolio() {
     return (
         <div>

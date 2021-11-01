@@ -1,10 +1,11 @@
 import React from 'react'
 
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Switch,
   Route,
 } from "react-router-dom";
+
 
 // import NavbarOne from './Pages/Navbar/Navbar';
 import About from './Pages/AboutPage/About';
@@ -23,24 +24,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div>
-      <Router>
+      <HashRouter hashType="noslash">
         <Header />
         <Switch>
-          <Route exact path="/">
-            <About />
-          </Route>
-          <Route path="/portfolio">
-            <Portfolio />
-          </Route>
-          <Route path="/resume">
-            <Resume />
-          </Route>
-          <Route path="/contact-me">
-            <Contact />
-          </Route>
+          <Route exact path="/" component={About}/>
+          <Route path="/portfolio" component={Portfolio}/>
+          <Route path="/resume" component={Resume}/>
+          <Route path="/contact-me" component={Contact}/>
         </Switch>
         <Footer />
-      </Router>
+      </HashRouter>
     </div>
   );
 }
