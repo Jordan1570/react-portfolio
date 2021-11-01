@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.01b1c9b3.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.01b1c9b3.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.f2956b5f.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.f2956b5f.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.2ae01407.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.2ae01407.js.map",
     "static/css/2.c1256375.chunk.css": "/react-portfolio/static/css/2.c1256375.chunk.css",
-    "static/js/2.96efe247.chunk.js": "/react-portfolio/static/js/2.96efe247.chunk.js",
-    "static/js/2.96efe247.chunk.js.map": "/react-portfolio/static/js/2.96efe247.chunk.js.map",
+    "static/js/2.3e76bc96.chunk.js": "/react-portfolio/static/js/2.3e76bc96.chunk.js",
+    "static/js/2.3e76bc96.chunk.js.map": "/react-portfolio/static/js/2.3e76bc96.chunk.js.map",
     "static/js/3.b52f98c4.chunk.js": "/react-portfolio/static/js/3.b52f98c4.chunk.js",
     "static/js/3.b52f98c4.chunk.js.map": "/react-portfolio/static/js/3.b52f98c4.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/2.c1256375.chunk.css.map": "/react-portfolio/static/css/2.c1256375.chunk.css.map",
     "static/css/main.6dea0f05.chunk.css.map": "/react-portfolio/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.96efe247.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.96efe247.chunk.js.LICENSE.txt",
+    "static/js/2.3e76bc96.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.3e76bc96.chunk.js.LICENSE.txt",
     "static/media/activity-planner.d134500f.png": "/react-portfolio/static/media/activity-planner.d134500f.png",
     "static/media/e-commerce-backend.e806607c.png": "/react-portfolio/static/media/e-commerce-backend.e806607c.png",
+    "static/media/fitness-tracker.b6c7bfcd.png": "/react-portfolio/static/media/fitness-tracker.b6c7bfcd.png",
     "static/media/note-taker.77416b33.png": "/react-portfolio/static/media/note-taker.77416b33.png",
     "static/media/on-track.7b934133.png": "/react-portfolio/static/media/on-track.7b934133.png",
     "static/media/random-password-generator.26047fba.png": "/react-portfolio/static/media/random-password-generator.26047fba.png",
@@ -26,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.2ae01407.js",
     "static/css/2.c1256375.chunk.css",
-    "static/js/2.96efe247.chunk.js",
+    "static/js/2.3e76bc96.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.01b1c9b3.chunk.js"
+    "static/js/main.f2956b5f.chunk.js"
   ]
 }
